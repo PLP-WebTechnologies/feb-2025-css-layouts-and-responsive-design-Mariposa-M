@@ -1,0 +1,40 @@
+.content {
+    background-color: rgb(246, 231, 208);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    background-color: rgb(153, 169, 215);
+    color: rgb(33, 62, 115);
+    font-weight: 700;
+    margin-bottom: 0.5vh;
+}
+
+
+@media (min-width:600px) {
+    .content {
+        background-color: rgb(173, 206, 207);
+    }
+
+    .navbar {
+        font-weight: 300;
+        gap: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:300px) {
+    .content {
+        background-color: rgb(243, 224, 247);
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        font-weight: 300;
+        gap: 5%;
+    }
+}
